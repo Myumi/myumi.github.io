@@ -16,6 +16,9 @@ body {
   padding-bottom: 50px;
   background-color: var(--bg);
 }
+a {
+  all: unset;
+}
 .header {
   width: 100%;
   background-color: var(--header-bg);
@@ -161,8 +164,4 @@ body {
 }
 .p--center{
   text-align: center;
-}
-
-.--no-style{
-  all: unset;
 }
