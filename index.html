@@ -1,0 +1,82 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Lato" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="js/main.js"></script>
+  </head>
+<body>
+<div class="header">
+  <span class="header__span">Name A. B.</span>
+  <ul class="header__nav">
+    <li class="nav__item" onclick="openTab(event, 'about')">about</li>
+    <li class="nav__item" onclick="openTab(event, 'projects')">projects</li>
+    <li class="nav__item" onclick="openTab(event, 'contact')">contact</li>
+  </ul>
+</div>
+<div class="container" id="about">
+  <div class="container__content">
+    <h1 class="content__h1">lorem ipsum</h1>
+    <hr class="content__hr">
+    <p class="content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat scelerisque varius morbi enim. Netus et malesuada fames ac. Netus et malesuada fames ac. Rhoncus mattis rhoncus urna
+      neque viverra justo nec ultrices. Sed euismod nisi porta lorem. Libero justo laoreet sit amet cursus sit amet dictum sit. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Amet justo donec enim diam vulputate ut pharetra sit. Ut placerat
+      orci nulla pellentesque.
+    </p>
+    <p class="content__p">
+      Arcu odio ut sem nulla pharetra diam sit amet. Ac tortor vitae purus faucibus ornare suspendisse sed. Lectus proin nibh nisl condimentum. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Placerat duis ultricies lacus sed turpis. Ornare quam
+      viverra orci sagittis eu volutpat. Tellus in hac habitasse platea dictumst vestibulum. At imperdiet dui accumsan sit amet nulla facilisi. Aliquam malesuada bibendum arcu vitae. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique.
+      Cras sed felis eget velit aliquet sagittis id consectetur. Penatibus et magnis dis parturient montes. Dolor sit amet consectetur adipiscing elit. Tristique senectus et netus et malesuada. Eget nullam non nisi est sit.
+    </p>
+  </div>
+  <div class="container__sidebar">
+    <img src="" class="sidebar__img">
+    <h1 class="sidebar__h1">Name A. B.</h1>
+    <div class="sidebar__line"></div>
+    <p class="sidebar__p">A short sentence describing oneself.</p>
+  </div>
+</div>
+<div class="container" id="projects" style="display: none">
+  <div class="container__sidebar">
+    <span class="sidebar__num">1.</span>
+    <span class="sidebar__num">2.</span>
+    <span class="sidebar__num">3.</span>
+    <span class="sidebar__num">4.</span>
+    <span class="sidebar__num">5.</span>
+  </div>
+  <div class="container__content">
+    <div class="content__project">
+      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
+      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="content__project">
+      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
+      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="content__project">
+      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
+      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="content__project">
+      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
+      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="content__project">
+      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
+      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+  </div>
+</div>
+<div class="container" id="contact" style="display: none">
+  <div class="container__content">
+    <h1 class="content__h1">lorem ipsum</h1>
+    <hr class="content__hr">
+    <p class="content__p p--small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat scelerisque varius morbi enim. Netus et malesuada fames ac.
+    </p>
+  </div>
+  <div class="container__footer">
+    <i class="fab fa-codepen"></i>
+    <i class="fab fa-github"></i>
+    <i class="far fa-envelope"></i>
+  </div>
+</div>
+</body>
