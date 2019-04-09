@@ -56,7 +56,7 @@ body {
   align-items: strech;
 }
 .container__content {
-  padding: 1rem;
+  padding: 15px 30px 15px 30px;
   background-color: var(--content-bg);
   color: var(--content-text);
   flex: 4 0 0;
@@ -78,11 +78,11 @@ body {
   height: 100px;
   margin-bottom: 10px;
 }
+.content__project:last-of-type {
+  margin-bottom: 0;
+}
 .project__desc {
   margin-top: 0;
-}
-.project__desc:last-of-type {
-  margin-bottom: 0;
 }
 .project__title {
   padding: 0;
@@ -161,4 +161,8 @@ body {
 }
 .p--center{
   text-align: center;
+}
+
+.--no-style{
+  all: unset;
 }
