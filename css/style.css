@@ -3,7 +3,9 @@
   --sidebar-text: #fefefe;
   --sidebar-font: "Playfair Display";
   --content-text: #2b3436;
-  --content-bg: #fbf7f5;
+  --content-font: serif;
+  --content-header: serif;
+  --content-bg: #fefefe;
   --header-font: "Lato";
   --header-text: #c089cd;
   --header-bg: #fefefe;
@@ -59,9 +61,11 @@ body {
   color: var(--content-text);
   flex: 4 0 0;
   min-width: 400px;
+  font-family: var(--content-font);
 }
 .content__h1 {
   text-align: center;
+  font-family: var(--content-header);
 }
 .content__p {
   text-align: left;
@@ -71,7 +75,8 @@ body {
   width: 50%;
 }
 .content__project {
-  margin-bottom: 13px;
+  height: 100px;
+  margin-bottom: 10px;
 }
 .project__desc {
   margin-top: 0;
@@ -82,22 +87,31 @@ body {
 .project__title {
   padding: 0;
   margin: 0;
+  font-family: var(--content-header);
 }
 .title__tools {
   font-style: italic;
   opacity: 0.7;
   font-size: 0.8rem;
 }
+.title__date{
+  float: right;
+  font-size: 9px;
+  opacity: 0.5;
+  display: none;
+}
 .container__sidebar {
   color: var(--sidebar-text);
   background-color: var(--sidebar-bg);
   text-align: center;
-  padding: 1rem;
-  color: var(--sidebar-text);
+  padding: 15px;
   flex: 1 0 0;
   display: flex;
   flex-direction: column;
   min-width: 190px;
+}
+#projects .container__sidebar{
+  min-width: 80px;
 }
 .sidebar__h1 {
   padding-bottom: 2rem;
@@ -127,27 +141,24 @@ body {
   filter: grayscale(30%);
 }
 .sidebar__num {
-  padding-bottom: 35px;
+  padding-bottom: 70px;
   font-size: 35px;
   font-style: italic;
   text-align: right;
 }
-#contact.container {
-  flex-direction: column;
-  box-sizing: border-box;
+.sidebar__num:last-of-type {
+  padding-bottom: 0px;
 }
-.container__footer {
-  background-color: var(--sidebar-bg);
-  width: 100%;
-  color: var(--sidebar-text);
-  font-size: 40px;
+.sidebar__footer {
+  font-size: 20px;
   text-align: center;
-  padding: 20px 0px 20px 0px;
+  padding: 80px 0px 0px 0px;
 }
 .fab,
 .far {
   cursor: pointer;
+  margin: 0 10px 0 10px;
 }
-.p--small{
-  padding: 0 6rem 0 6rem;
+.p--center{
+  text-align: center;
 }

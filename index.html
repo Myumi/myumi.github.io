@@ -12,28 +12,38 @@
   <ul class="header__nav">
     <li class="nav__item" onclick="openTab(event, 'about')">about</li>
     <li class="nav__item" onclick="openTab(event, 'projects')">projects</li>
-    <li class="nav__item" onclick="openTab(event, 'contact')">contact</li>
+    <li class="nav__item">contact</li>
   </ul>
 </div>
 <div class="container" id="about">
   <div class="container__content">
-    <h1 class="content__h1">lorem ipsum</h1>
+    <h1 class="content__h1">about me</h1>
     <hr class="content__hr">
-    <p class="content__p">Hello! My name is Myumi and I like to write code. Descended from Japanese royalty and a childhood addiction to <em>Neopets</em>, I started the basics programming at an early age. A CSS guide in-game gave me my first dip into code, however, it wasn't until high school that I realized HTML/CSS/JS wasn't just for <em>Neopets</em>.
+    <p class="content__p">Hello! My name is Myumi and I like to write code. Descended from Japanese royalty and a childhood addiction to <em>Neopets</em>, I started the basics programming at an early age. An in-game CSS guide gave me my first dip into code, however, it wasn't until high school that I realized HTML/CSS/JS wasn't just for <em>Neopets</em>.
     </p>
         <p class="content__p">
-          Since then, I have travelled across the country to work as a video game developer, and flown back home to New Jersey pursue software development. Now, I am looking to root myself back into what made me the happiest when I was programming: web design and development.
+          Since then, I have travelled across the country to work as a video game developer, and flown back home to New Jersey pursue software development. Now, I am looking to root myself into what made me the happiest when I was programming: web design and development.
           </p>
     <p class="content__p">
       I can most frequently be found sewing new toys for my eccentric and elderly furrball, cooking up something vegan and delicious, or playing nostalgic video game melodies on bass.
-      Generally only seen outside four walls when the weather is precisely above 70°, I will hike in the mountainous expanse of northern New Jersey, declaring various large boulders as "good" or "very good".
     </p>
+    <p class="content__p">
+      Whether you're interested in collborating on something fun or inquiring about an interview, I can best be reached via email.
+    </p>
+    <p class="content__p p--center">
+      <!-- <i class="fas fa-moon"></i> -->
+      </p>
   </div>
   <div class="container__sidebar">
     <img src="img/portrait.png" class="sidebar__img">
     <h1 class="sidebar__h1">Myumi A. K.</h1>
     <div class="sidebar__line"></div>
     <p class="sidebar__p">A short sentence describing oneself.</p>
+    <div class="sidebar__footer">
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-codepen"></i>
+    </div>
   </div>
 </div>
 <div class="container" id="projects" style="display: none">
@@ -46,44 +56,25 @@
   </div>
   <div class="container__content">
     <div class="content__project">
-      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
-      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h3 class="project__title">portfolio site <span class="title__tools">html5, css3, js</span><span class="title__date">apr 19</span></h3>
+      <p class="project__desc">This single-page responsive website I designed to showcase my work. First time trying out the BEM naming conventon. I like it a lot!</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
-      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h3 class="project__title">tsuki site <span class="title__tools">html5, css3, jquery</span><span class="title__date">feb 19</span></h3>
+      <p class="project__desc">After having the best sushi of my life, I decided to practice some web skills on redesigning the website of a local resturant. I updated the site's appearance, accessibility, and features. I worked directly with the owners of the resturant to edit my design to their needs.</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
-      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h3 class="project__title">animal crossing pattern maker <span class="title__tools">html5, css3, js</span><span class="title__date">jan 19</span></h3>
+      <p class="project__desc">My first time collborating with strangers on the internet (yay!). The original tool needed an aesthetic overhaul without deterring from it's functionality, as well as an update to ES6.</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
-      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h3 class="project__title">user authentication <span class="title__tools">react, node.js, express, postgresql</span><span class="title__date">jan 19</span></h3>
+      <p class="project__desc">A user login and registration app. I used this to learn a little more about the above tools. I might consider using it later as a building block for a larger project.</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">lorem ipsum <span class="title__tools">language, tools</span></h3>
-      <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <h3 class="project__title">facial recognition app <span class="title__tools">python3, opencv2</span><span class="title__date">dec 18</span></h3>
+      <p class="project__desc">An app that takes photos of a face and learns how to recognize it from other people. Originally going to be a building block for another project I was working on, but actually became very useful for another task at my job.</p>
     </div>
-  </div>
-</div>
-<div class="container" id="contact" style="display: none">
-  <div class="container__content">
-    <h1 class="content__h1">contact me</h1>
-    <hr class="content__hr">
-    <p class="content__p p--small">Whether you're interested in collborating on something fun or inquiring about an interview, I can best be reached via email.
-    </p>
-        <p class="content__p p--small">
-          Feel free to check out any of my other projects by following the links below.
-          </p>
-    <p class="content__p p--small">
-      <i class="fas fa-moon"></i>
-      </p>
-  </div>
-  <div class="container__footer">
-    <i class="fab fa-codepen"></i>
-    <i class="fab fa-github"></i>
-    <i class="far fa-envelope"></i>
   </div>
 </div>
 </body>
