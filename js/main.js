@@ -25,3 +25,11 @@ function openTab(evt, tab) {
   unfade(document.getElementById(tab));
   evt.currentTarget.className += " active";
 }
+
+function openDropdown(evt) {
+  console.log(document.getElementsByClassName("header__nav")[0].style.display);
+  let display = document.getElementsByClassName("header__nav")[0];
+  display.style.display === "none" || display.style.display === ""
+    ? (display.style.display = "inline-grid")
+    : (display.style.display = "none");
+}

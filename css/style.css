@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding-bottom: 50px;
   background-color: var(--bg);
+  width: auto;
 }
 a {
   all: unset;
@@ -40,6 +41,9 @@ a {
 }
 .header__nav li:hover {
   color: var(--sidebar-bg);
+}
+.header__navicon{
+  display: none;
 }
 .nav__item {
   float: left;
@@ -167,11 +171,40 @@ a {
   text-align: center;
 }
 @media only screen and (max-width: 730px){
+  .header__navicon{
+    display: inline;
+    font-size: 1.2rem;
+    float: right;
+    cursor: pointer;
+  }
+  .header__nav{
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: var(--header-bg);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px 5px;
+    z-index: 1;
+  }
+  .nav__item{
+    margin: 0;
+    padding: 5px 0px;
+  }
   .container{
-    min-width: 540px;
+    min-width: 450px;
+    font-size: 0.8rem;
   }
   .container__content{
-    min-width: 300px;
+    min-width: 250px;
+    padding: 5px 20px 5px 20px;
+  }
+  .content__p{
+    font-size: 0.8rem;
   }
   .content__project:last-of-type {
     margin-bottom: 10px;
