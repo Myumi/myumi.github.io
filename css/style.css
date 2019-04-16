@@ -50,7 +50,7 @@ a {
 }
 .container {
   min-height: 500px;
-  width: 50%;
+  width: 500px;
   margin: auto;
   box-shadow: 0 0 50px 0 rgba(30, 20, 80, 0.08),
     0 0 50px 0 rgba(30, 20, 80, 0.08);
@@ -164,4 +164,15 @@ a {
 }
 .p--center{
   text-align: center;
+}
+
+.secret{
+  display: none;
+}
+@media only screen and (max-width: 600px){
+  .secret{
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+  }
 }
