@@ -166,7 +166,7 @@ a {
 .p--center{
   text-align: center;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 730px){
   .container{
     min-width: 540px;
   }
