@@ -266,13 +266,15 @@ a {
     height: 3rem;
     width: 3rem;
     padding: 0.2rem;
-    margin-right: 5px;
+    margin-right: 10px;
   }
   .sidebar__num {
     display: none;
   }
   .sidebar__footer {
+    font-size: 1rem;
     flex-direction: column;
     padding: 0px;
+    margin-left: -15px;
   }
 }
