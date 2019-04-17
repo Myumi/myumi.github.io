@@ -236,7 +236,7 @@ a {
     padding: 5px 0px;
   }
   .container {
-    min-width: 350px;
+    min-width: 290px;
     font-size: 0.8rem;
     flex-direction: column-reverse;
   }
@@ -247,7 +247,11 @@ a {
     margin-top: 10px;
   }
   .container__sidebar {
+    min-height: 80px;
     flex-direction: row;
+  }
+  #projects .container__sidebar{
+    min-height: 8px;
   }
   .sidebar__line {
     display: none;
