@@ -250,9 +250,13 @@ a {
   .container__sidebar {
     min-height: 80px;
     flex-direction: row;
+    justify-content: space-between;
   }
   #projects .container__sidebar{
     min-height: 8px;
+  }
+  .sidebar__p{
+    /* display: none; */
   }
   .sidebar__line {
     display: none;
@@ -261,20 +265,20 @@ a {
     font-size: 1rem;
     padding: 0;
     margin: 0;
+    display: none;
   }
   .sidebar__img {
     height: 3rem;
     width: 3rem;
     padding: 0.2rem;
-    margin-right: 10px;
   }
   .sidebar__num {
     display: none;
   }
   .sidebar__footer {
     font-size: 1rem;
+    display: flex;
     flex-direction: column;
     padding: 0px;
-    margin-left: -15px;
   }
 }
