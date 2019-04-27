@@ -3,7 +3,7 @@
   --sidebar-text: #fefefe;
   --sidebar-font: "Playfair Display";
   --content-text: #2b3436;
-  --content-font: serif;
+  --content-font: "Merriweather";
   --content-header: serif;
   --content-bg: #fefefe;
   --header-font: "Lato";
@@ -77,7 +77,8 @@ a {
 }
 .content__p {
   text-align: left;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
 }
 .content__hr {
   width: 50%;
@@ -94,6 +95,8 @@ a {
 }
 .project__desc {
   margin-top: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
 }
 .project__title {
   padding: 0;
@@ -212,8 +215,12 @@ a {
   .content__p {
     font-size: 0.8rem;
   }
-  .project__desc:last-of-type {
-    margin-bottom: 0px;
+  .content__project{
+    margin-bottom: 5px;
+  }
+  .project__desc{
+    font-size: 0.8rem;
+    opacity: 0.9;
   }
   .container__sidebar {
     min-width: 140px;
@@ -246,6 +253,17 @@ a {
   }
   .content__project:first-of-type {
     margin-top: 10px;
+  }
+  .content__project{
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .content__project:last-of-type{
+    margin-bottom: 10px;
+  }
+  .project__desc{
+    font-size: 0.8rem;
+    opacity: 0.9;
   }
   .container__sidebar {
     min-height: 80px;

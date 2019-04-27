@@ -24,7 +24,9 @@ function openTab(evt, tab) {
   }
   unfade(document.getElementById(tab));
   evt.currentTarget.className += " active";
-  document.getElementsByClassName("header__navicon")[0].style.display !== "none"
+
+  console.log(window.getComputedStyle(document.getElementsByClassName("header__navicon")[0]).display)
+  window.getComputedStyle(document.getElementsByClassName("header__navicon")[0]).display == "block"
     ? (document.getElementsByClassName("header__nav")[0].style.display = "none")
     : '';
 }
