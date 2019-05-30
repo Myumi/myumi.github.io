@@ -1,5 +1,6 @@
 :root {
-  --sidebar-bg: #ddbfe4;
+  /* --sidebar-bg: #ddbfe4; */
+  --sidebar-bg: #d4addd;
   --sidebar-text: #fefefe;
   --sidebar-font: "Playfair Display";
   --content-text: #2b3436;
@@ -81,7 +82,9 @@ a {
   opacity: 0.9;
 }
 .content__hr {
-  width: 50%;
+  width: 15%;
+  margin-top: -1rem;
+  border-color: var(--sidebar-bg);
 }
 .content__project {
   height: 100px;
@@ -294,9 +297,9 @@ a {
     display: none;
   }
   .sidebar__footer {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0;
   }
 }
