@@ -8,7 +8,7 @@
 <script src="js/main.js"></script>
   </head>
 <body>
-<div class="header">
+<nav class="header">
   <span class="header__span">Myumi A. Kalinowski</span>
   <span class="header__navicon" onclick="openDropdown(event)">&#9776;</span>
   <ul class="header__nav">
@@ -16,16 +16,17 @@
     <li class="nav__item" onclick="openTab(event, 'projects')">projects</li>
     <li class="nav__item"><a href="mailto:myumiak@gmail.com">contact</a></li>
   </ul>
-</div>
+</nav><!-- header/nav -->
 <div class="container" id="about">
   <div class="container__content">
     <h1 class="content__h1">about me</h1>
     <hr class="content__hr">
-    <p class="content__p">Hello! My name is Myumi and I like to write code. Descended from Japanese royalty and a childhood addiction to <em>Neopets</em>, I started with the basics programming at an early age. An in-game CSS guide gave me my first dip into code, however, it wasn't until high school that I realized HTML/CSS/JS wasn't just for <em>Neopets</em>.
+    <p class="content__p">
+      Hello! My name is Myumi and I like to write code. Descended from Japanese royalty and a childhood addiction to <em>Neopets</em>, I started with the basics programming at an early age. An in-game CSS guide gave me my first dip into code, however, it wasn't until high school that I realized HTML/CSS/JS wasn't just for <em>Neopets</em>.
     </p>
-        <p class="content__p">
-          Since then, I have travelled across the country to work as a video game developer, and flown back home to New Jersey pursue software development. Now, I am looking to root myself into what made me the happiest when I was programming: web application development and design.
-          </p>
+    <p class="content__p">
+      Since then, I have travelled across the country to work as a video game developer, and flown back home to New Jersey pursue software development. Now, I have begun to root myself into what made me the happiest when I was programming: web application development and design.
+    </p>
     <p class="content__p">
       I can most frequently be found sewing new toys for my eccentric and elderly furrball, cooking up something vegan and delicious, or playing nostalgic video game melodies on bass.
     </p>
@@ -37,7 +38,7 @@
     <img src="img/portrait.png" class="sidebar__img">
     <h1 class="sidebar__h1">Myumi A. K.</h1>
     <div class="sidebar__line"></div>
-    <p class="sidebar__p">An arachnophobic web development enthusist.</p>
+    <p class="sidebar__p">An arachnophobic web developer.</p>
     <div class="sidebar__footer">
       <a href="https://www.linkedin.com/in/myumi-kalinowski-538a06119/"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://github.com/myumi"><i class="fab fa-github"></i></a>
@@ -59,12 +60,12 @@
       <p class="project__desc">This single-page website I designed to showcase my work. I had a lot of fun designing something simple and chic that suited my tastes. First time trying out the BEM naming convention.</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">tsuki site <span class="title__tools">html5, css3, js</span><span class="title__date">feb 19</span></h3>
-      <p class="project__desc">After having the best sushi of my life, I practiced some web skills on redesigning the website of a local resturant. I worked directly with the owners of the resturant design their new mobile-responsive site.</p>
+      <h3 class="project__title">novamei <span class="title__tools">node, express, postgresql, handlebars</span><span class="title__date">jan 20</span></h3>
+      <p class="project__desc">A dream/passion project of mine for years has been to revive the nostalgic early 2000's world of web-based games. I'm building my own from scratch with modern web tools.</p>
     </div>
     <div class="content__project">
-      <h3 class="project__title">animal crossing pattern maker <span class="title__tools">html5, css3, js, php</span><span class="title__date">jan 19</span></h3>
-      <p class="project__desc">My first time collborating with strangers on the internet (yay!). The original tool needed an aesthetic overhaul without deterring from it's functionality, as well as an update to ES6.</p>
+      <h3 class="project__title">animal crossing pattern maker <span class="title__tools">html5, css3, js</span><span class="title__date">jan 19</span></h3>
+      <p class="project__desc">My first time collborating with strangers on the internet (yay!). The original tool needed an aesthetic overhaul without deterring from it's functionality, an ability to be downloaded for offline use.</p>
     </div>
     <div class="content__project">
       <h3 class="project__title">splash page <span class="title__tools">react, node.js, rest apis</span><span class="title__date">jan 19</span></h3>
